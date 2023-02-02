@@ -26,13 +26,26 @@ for i in range(8):
     t.right(120)
 t.end_fill()
 #tail
+
+
 t.fillcolor("green")
-t.begin_fill("green")
+t.begin_fill()
 t.forward(120)
 t.left(50)
 t.forward(20)
 t.left(130)
 t.forward(140)
 t.end_fill()
+t.penup()
+t.goto(30,15)
+	
+t.setheading(60)
 
+t.right(90)
+
+for i in range(6):
+    t.forward(15)
+    t.right(120)
+    t.forward(15)
+    t.left(120)
 s.exitonclick()
